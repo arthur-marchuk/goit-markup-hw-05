@@ -546,6 +546,7 @@ a {
 .form {
   display: flex;
   gap: 24px;
+  flex-direction: column;
 }
 
 .modal {
