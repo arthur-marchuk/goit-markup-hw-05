@@ -543,6 +543,11 @@ a {
   left: 0;
 }
 
+.form {
+  display: flex;
+  gap: 24px;
+}
+
 .modal {
   border-radius: 4px;
   width: 408px;
@@ -591,7 +596,7 @@ a {
   margin-top: 4px;
 }
 
-.modal-form-label {
+.form-label {
   font-size: 12px;
   line-height: 1.16667;
   letter-spacing: 0.04em;
