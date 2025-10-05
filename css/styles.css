@@ -490,6 +490,12 @@ a {
 .footer-team-social:focus {
   background-color: #31d0aa;
 }
+
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+
 .footer-form-input {
   border: 1px solid #fff;
   border-radius: 4px;
@@ -546,7 +552,6 @@ a {
 .form {
   display: flex;
   gap: 24px;
-  flex-direction: column;
 }
 
 .modal {
@@ -597,7 +602,7 @@ a {
   margin-top: 4px;
 }
 
-.form-label {
+.modal-form-label {
   font-size: 12px;
   line-height: 1.16667;
   letter-spacing: 0.04em;
