@@ -533,7 +533,7 @@
                 id="user-name"
                 class="modal-form-input"
               />
-              <svg width="18" height="18" class="input-icon">
+              <svg width="18" height="24" class="input-icon">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
@@ -579,21 +579,24 @@
             ></textarea>
           </div>
 
-          <input
-            type="checkbox"
-            name="checkbox"
-            id="checkbox"
-            class="visually-hidden"
-          />
-          <label for="checkbox" class="agreement">
-            <span class="agreement-checkbox">
-              <svg width="10" height="8" class="agreement-checkbox-icon">
-                <use href="./images/icons.svg#icon-cheack-mark"></use>
-              </svg>
-            </span>
-            I accept the terms and conditions of the
-            <a href="" class="agreement-link">Privacy Policy</a>
-          </label>
+          <div class="agreement-wrapper">
+            <input
+              type="checkbox"
+              name="checkbox"
+              id="user-privacy"
+              class="visually-hidden"
+              value="true"
+            />
+            <label for="user-privacy" class="agreement">
+              <span class="agreement-checkbox">
+                <svg width="10" height="8" class="agreement-checkbox-icon">
+                  <use href="./images/icons.svg#icon-cheack-mark"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="" class="agreement-link">Privacy Policy</a>
+            </label>
+          </div>
 
           <button class="modal-form-btn" type="submit">Send</button>
         </form>
